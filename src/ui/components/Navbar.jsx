@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import{useNavigate} from "react-router-dom"
+import { SearchPage } from "../../heroes/pages/SearchPage";
 
 export const Navbar = () => {
   const navigate = useNavigate()
@@ -11,7 +12,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
       <Link className="navbar-brand" to="/">
-        Asociaciones
+        Home
       </Link>
 
       <div className="navbar-collapse">
@@ -23,6 +24,11 @@ export const Navbar = () => {
           <NavLink className={({isActive})=>`nav-item nav-link ${isActive ? 'active': ''}`} to="/dc">
             DC
           </NavLink>
+
+           <NavLink className={({isActive})=>`nav-item nav-link ${isActive ? 'active': ''}`} to="/search">
+           Search
+          </NavLink>          
+          
         </div>
       </div>
 
