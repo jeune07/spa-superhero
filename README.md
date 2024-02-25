@@ -17,7 +17,7 @@ The purpose of creating the Superhero app is to showcase superheroes along with 
 - React.js: Utilized `useState` to manage some state and `useReducer` for custom state management in forms. Used Navigate to manage navigation.
 - Styling: Bootstrap 5, CSS, and Animate.css.
 - Programming Language: JavaScript.
-- Route Management: React Router Dom
+- Route Management: React Router Dom.
 
 # Useful Websites
 
